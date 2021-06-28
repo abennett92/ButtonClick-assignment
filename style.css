@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#body {
+    width: 1200px;
+    display: flex;
+}
+
+/* nav begins */
+#nav {
+    display: flex;
+    position: relative;
+    background-color: lightgray;
+    margin: 15px;
+    padding: 25px;
+    min-height: 5em;
+    min-width: 1100px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button.login {
+    color: white;
+    background-color: #2c6bff;
+    box-shadow: 4px 2px 2px black;
+    width: 5em;
+    height: 2em;
+}
+/* nav ends */
+
+/* left column begins */
+.top {
+    display: flex;
+    position: relative;
+    border: black solid;
+    margin: 130px 15px;
+    padding: 25px;
+    min-height: 4em;
+    width: 600px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top button, .bot button {
+    background-color: #ffd966;
+    box-shadow: 4px 2px 2px black;
+    font-weight: bold;
+    margin-top: 2em;
+    width: 5em;
+    height: 2em;
+}
+
+.right {
+    font-size: 1.2em;
+    width: 60%;
+}
+
+.plural {
+    font-size: 1.2em;
+    margin-top: .5em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bot {
+    display: flex;
+    position: relative;
+    border: black solid;
+    margin: 360px 15px;
+    padding: 25px;
+    min-height: 5em;
+    width: 600px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+/* left column ends */
+
+#body-right {
+    position: relative;
+    border: black solid;
+    left: 715px;
+    margin: 130px 0;
+    padding: 25px;
+    min-height: 4em;
+    width: 400px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#body-right button {
+    background-color: #93c47d;
+    font-weight: bold;
+    box-shadow: 4px 2px 2px black;
+    width: 250px;
+    height: 30px;
+}
